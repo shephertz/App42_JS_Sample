@@ -1,7 +1,7 @@
 App42_JAVASCRIPT_SDK
 ====================
 
-App42 Cloud API Client SDK files for JavaScript
+App42 Cloud API Client Sample files for JavaScript
 
 1. [Register] (https://apphq.shephertz.com/register) with App42 platform.
 2. Create an app once you are on Quick start page after registration.
@@ -18,19 +18,7 @@ __Download And Set Up SDK :-__
 ```
 <script type="text/javascript" src="App42-all-x.x.x.min.js"/>
 ```
-- Initialize the library using
- 
-```javascript
-App42.initialize("API KEY","SECRET KEY");
-```
-
-- Instantiate the service that one wants to use in the App, e.g. using User service one has to do the following
-
-```javascript
-var user = new App42User();
-```
-
-- Now one can call associated method of that service e.g. user creation can be done with the following snippet
+- One can call associated method of the service e.g. user creation can be done with the following snippet
 
 ```javascript
 user.createUser(userName, pwd, email,{
@@ -43,8 +31,6 @@ error: function(error) {
 
 - Executing above method will create user for your app in App42 cloud.
 - You can login to AppHQ console and can see the created user there.
-- You can also use your UserSample.HTML/StorageSample.HTML shipped with distribution for more details.
-- Similarly one can use other App42 services like File Upload, Gaming, NoSQL Storage to make user engaging social Apps for HTML5.
 
 
 Third Party binaries and respective licenses used in App42 SDK are listed below
